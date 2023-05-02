@@ -5,7 +5,7 @@ const app = express()
 const router = express.Router()
 
 router.get('/', (req, res) => {
-  res.json({ 'json': 'epta' })
+  res.send("lol send is working")
 })
 router.get('/another', (req, res) => {
   res.json({ 'data': ['start', 'work', 'piece', 'of', 'shit'] })
